@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "appId": "BlockHelm-Launcher",
+  "channel": "release",
+  "versionName": "0.11.0",
+  "versionCode": 110000,
+  "publishedAt": "2026-11-07T12:24:27Z",
+  "mandatory": false,
+  "minSupportedVersionCode": 0,
+  "releaseNotes": "# Mysterious Launcher 0.11.0\n\n## 新功能\n- 自动下载支持 4 路并发，依赖模组可随主模组一起安装\n- 新增「下载对应依赖」开关，默认开启\n- 自动下载列表支持搜索与单独启停\n\n## 优化\n- 下载改用 HTTP/2 多路复用，大文件按分段多连接下载，明显提升速度\n- 启动器改为直接进入主窗口，不再显示加载界面\n\n## 修复\n- 修复大型 mrpack 整合包导入时因加载器元数据超时被误取消\n- 修复自动下载模组逐个排队、速度过慢的问题\n",
+  "assets": [
+    {
+      "platform": "windows",
+      "arch": "x64",
+      "packageType": "exe",
+      "fileName": "Mysterious_Launcher.exe",
+      "size": 77951133,
+      "sha256": "d08182c4151b9495cfbd7f64bcb76bed81d3b6c90345f9baec76d84a7555f133",
+      "urls": [
+        {
+          "name": "github",
+          "url": "https://github.com/xiaoxiaoyux7-ctrl/Mysterious-Launcher/releases/download/v0.11.0/Mysterious_Launcher.exe",
+          "priority": 1
+        }
+      ]
+    }
+  ]
+}
